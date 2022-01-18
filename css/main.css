@@ -1,7 +1,38 @@
-.car{
-  height: 10vh;
+body{
+  background-color: black;
+}
+.imgCar{
+  height: 90vh;
+  object-fit: cover;
 }
 
-.imgCar{
-  height: 10vh
+.titulo{
+  position: absolute;
+  display:inline-block;
+  width: auto;
+  z-index: 3;
+  top: 50%;
+  left: 45%;
+  color: white;
+
+}
+
+.subtitulo{
+  position: absolute;
+  display: inline-block;
+  width: auto;
+  z-index: 3;
+  top: 60%;
+  left: 42%;
+  color: white;
+  text-align: center;
+}
+
+.titulo-2{
+  color: white;
+}
+
+.card{
+  margin-top: 20px;
+  background-color: #f5f5dc;
 }
